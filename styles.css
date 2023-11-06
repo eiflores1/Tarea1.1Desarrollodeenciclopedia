@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+    max-width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 10px;
@@ -46,11 +47,6 @@ button[type="submit"] {
     color: #fff;
     border: none;
     cursor: pointer;
-}
-
-.movie-image {
-    max-width: 100px;
-    height: auto;
 }
 
 #search-results {
