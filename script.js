@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     searchForm.addEventListener("submit", async (e) => {
         e.preventDefault();
         const searchTerm = searchInput.value;
-        const apiEndpoint = `http://www.omdbapi.com/?apikey=${apiKey}&s=${searchTerm}`;
+        const apiEndpoint = `https://www.omdbapi.com/?apikey=${apiKey}&s=${searchTerm}`;
 
         try {
             const response = await fetch(apiEndpoint);
