@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101010; /* Fondo de color oscuro, similar a una sala de cine */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px; /* Tamaño del título aumentado para destacar */
+    color: #ff5722; /* Un color que evoca el cine */
+    background-color: transparent; /* Fondo del título transparente */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-form {
+    flex: 1; /* El formulario ocupa el espacio restante */
+}
+
+#search-input {
+    padding: 12px; /* Aumento del tamaño del input */
+    width: 100%; /* El input se expande para ocupar todo el espacio disponible */
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.movie-image {
+    margin-left: 20px; /* Espacio entre el formulario y la imagen */
+}
+
+.movie-image img {
+    max-width: 100px; /* Controla el tamaño máximo de la imagen */
+}
+
+#search-results {
+    text-align: left;
+}
+
+.result-item {
+    background-color: #f9f9f9;
+    padding: 20px; /* Aumento del espaciado para mejorar la legibilidad */
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Agregar un efecto de sombra al hacer hover sobre los resultados */
+.result-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
