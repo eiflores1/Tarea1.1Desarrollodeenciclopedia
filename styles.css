@@ -1,25 +1,25 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #101010; /* Fondo de color oscuro */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background: url('1852.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
     margin: 0;
+    padding: 0;
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
+    color: #000;
 }
 
 h1 {
-    font-size: 36px; /* Tamaño del título aumentado para destacar */
-    color: #ff5722; /* Un color que evoca el cine */
-    background-color: transparent; /* Fondo del título transparente */
+    font-size: 36px;
+    color: #ff5722;
+    background-color: transparent;
     padding: 10px;
     border-radius: 5px;
 }
@@ -31,12 +31,12 @@ h1 {
 }
 
 #search-form {
-    flex: 1; /* El formulario ocupa el espacio restante */
+    flex: 1;
 }
 
 #search-input {
-    padding: 12px; /* Aumento del tamaño del input */
-    width: 100%; /* El input se expande para ocupar todo el espacio disponible */
+    padding: 12px;
+    width: 100%;
     border: 1px solid #ccc;
 }
 
@@ -49,25 +49,22 @@ button[type="submit"] {
 }
 
 .movie-image {
-    margin-left: 20px; /* Espacio entre el formulario y la imagen */
-}
-
-.movie-image img {
-    max-width: 100px; /* Controla el tamaño máximo de la imagen */
+    max-width: 100px;
+    height: auto;
 }
 
 #search-results {
     text-align: left;
+    color: #000;
 }
 
 .result-item {
     background-color: #f9f9f9;
-    padding: 20px; /* Aumento del espaciado para mejorar la legibilidad */
+    padding: 20px;
     border: 1px solid #ddd;
     margin-bottom: 20px;
 }
 
-/* Agregar un efecto de sombra al hacer hover sobre los resultados */
 .result-item:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease-in-out;
